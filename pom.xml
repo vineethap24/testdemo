@@ -1,0 +1,23 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.bki.api</groupId>
+    <artifactId>st-louis-fed-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <name>st-louis-fed-parent</name>
+
+    <parent>
+        <groupId>com.bki.api.commons</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <teamName>lsd</teamName>
+    </properties>
+
+    <modules>
+        <module>edge</module>
+    </modules>
+
+</project>
